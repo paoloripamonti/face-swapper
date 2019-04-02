@@ -1,0 +1,49 @@
+body{
+   font-family: 'Quicksand';
+}
+
+.input-image-block{
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.output-image-block{
+    margin: 5px;
+    padding: 5px;
+    height: 600px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.swap-btn-div{
+    height: 600px;
+    padding-top: 285px;
+}
+
+.swap-btn{
+    height: 50px;
+    padding-top: 15%;
+}
+
+.ui-widget-content{
+
+}
+
+.ui-draggable,
+.ui-droppable {
+  background-position: top;
+}
+
+.resizable {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+}
+
+#resizable h3 {
+  text-align: center;
+  margin: 0;
+}
