@@ -36,7 +36,7 @@ $(function() {
 $(".swap-btn").click(function(){
     img1 = $("#img1").attr("src")
     img2 = $("#img2").attr("src")
-    $("#output").html("Swaping... please wait")
+    $("#output").html("Swapping... please wait")
      $.ajax({
         url: "/swap",
         data: {"img1": img1, "img2":img2},
